@@ -132,11 +132,6 @@ nvim_lsp.gopls.setup {
   capabilities = capabilities
 }
 
-nvim_lsp.rust_analyzer.setup {
-  on_attach = on_attach,
-  capabilities = capabilities
-}
-
 nvim_lsp.prismals.setup {
   on_attach = on_attach,
   capabilities = capabilities
@@ -153,6 +148,11 @@ nvim_lsp.docker_compose_language_service.setup {
 }
 
 nvim_lsp.dockerls.setup {
+  on_attach = on_attach,
+  capabilities = capabilities
+}
+
+nvim_lsp.prismals.setup {
   on_attach = on_attach,
   capabilities = capabilities
 }
